@@ -7,5 +7,5 @@ import WebFont from 'webfontloader';
 WebFont.load({
   families: ['Apple ][']
 });
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('content'));
 registerServiceWorker();
