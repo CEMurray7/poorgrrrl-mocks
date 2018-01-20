@@ -26,3 +26,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+@font-face {
+  font-family: 'Apple ][';
+  src: local('Apple ]['), url(Apple ][.ttf) format('tff');
+}
+body {
+  font-family: 'Apple ][';
+  background-color: black;
+  color: #00c925;
+}
