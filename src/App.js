@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import fonts from "./Apple ][.ttf";
 import ReactDOM from 'react-dom';
+// import { ToastContainer } from "react-toastr";
 
 // import './assets/fonts/Apple][.ttf';
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
           <h1 className="App-title">P00RGRRRL</h1>
         </header>
         <p className="App-intro">
-          REL0AD
+          REL0AD  !"#$%&'()*+,-./0123456789:;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz��
         </p>
         <div id="root"></div>
       </div>
@@ -67,7 +68,7 @@ class Content extends React.Component {
 
 
 ReactDOM.render(
-  <Content />,
+  <App />,
   document.getElementById('content')
 );
 
